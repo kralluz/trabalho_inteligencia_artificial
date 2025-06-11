@@ -1,0 +1,46 @@
+# Pastas geradas durante treinamento (não versionar)
+# Projeto final do novo modelo
+projeto_final_novo/ 
+# Pastas de treinamento e teste do novo modelo
+resultados_novo/
+# Teste final do modelo
+teste_final_novo/ 
+runs/
+
+# Datasets externos/baixados (manter apenas o dataset_novo e dataset_yolo_novo)
+pklot_dataset/
+parking_dataset_kaggle/
+parking_dataset_local/
+pk_lot_real_dataset*/
+temp_*/
+*_cloned*/
+
+# Arquivos de modelo temporários
+runs/
+*.pt.tmp
+*.cache
+
+# Logs e outputs
+*.log
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
