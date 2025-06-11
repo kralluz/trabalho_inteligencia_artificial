@@ -134,7 +134,7 @@ def main():
         # Configurações de treinamento otimizadas para o novo dataset
         results = model.train(
             data=yaml_path,
-            epochs=3,           # Menos épocas pois o dataset é de alta qualidade
+            epochs=150,           # Menos épocas pois o dataset é de alta qualidade
             batch=8,            # Batch maior pois temos menos imagens mas mais anotações
             imgsz=640,          # Resolução maior para melhor precisão
             device='cpu',       # CPU para compatibilidade
