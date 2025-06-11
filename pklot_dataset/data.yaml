@@ -1,0 +1,15 @@
+# PKLot Dataset - Parking Lot Detection
+path: C:\Users\chenr\Documents\GitHub\trabalho_inteligencia_artificial\pklot_dataset
+train: train/images
+val: val/images
+test: test/images
+
+# Classes PKLot
+nc: 2  
+names: ['empty', 'occupied']
+
+# Dataset Info
+description: "PKLot - Parking Lot Dataset (Real Images)"
+source: "https://github.com/Detopall/parking-lot-prediction"
+license: "Public Domain"
+version: "1.0"

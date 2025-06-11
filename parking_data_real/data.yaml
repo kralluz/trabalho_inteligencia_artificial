@@ -1,0 +1,9 @@
+# Dataset REAL de Estacionamento (PKLot-based)
+path: C:\Users\chenr\Documents\GitHub\trabalho_inteligencia_artificial\parking_data_real
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+nc: 2
+names: ['empty', 'occupied']
