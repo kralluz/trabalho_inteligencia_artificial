@@ -1,0 +1,9 @@
+# Dataset de Vagas de Estacionamento
+path: c:\Users\chenr\Documents\GitHub\trabalho_inteligencia_artificial\parking-lot-prediction\parking_ai_dataset
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+nc: 2
+names: ['empty', 'occupied']
