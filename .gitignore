@@ -6,6 +6,7 @@ teste_final_novo/
 runs/
 trabalho_inteligencia_artificial/
 
+
 # Datasets externos/baixados (manter apenas o dataset_novo e dataset_yolo_novo)
 pklot_dataset/
 parking_dataset_kaggle/
