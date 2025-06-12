@@ -1,15 +1,14 @@
 # Dataset YOLO Novo - Parking Detection
-path: C:\Users\chenr\Documents\GitHub\trabalho_inteligencia_artificial\dataset_yolo_novo
-train: train/images
-val: val/images
-test: test/images
+train: ./train/images
+val: ./val/images
+test: ./test/images
 
 # Classes
 nc: 2
 names: ['free_parking_space', 'not_free_parking_space']
 
 # Dataset Info
-description: "Dataset de estacionamento com anotações precisas"
+description: "Dataset de estacionamento com anotaï¿½ï¿½es precisas"
 total_images: 30
 total_annotations: 903
 train_images: 21
