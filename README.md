@@ -1,4 +1,20 @@
+
+
 # 🚗 Trabalho Final - Inteligência Artificial
+
+
+## 🎓 Contexto Acadêmico
+
+**Curso:** Bacharelado em Sistemas de Informação  
+**Disciplina:** Inteligencia Artificial 
+**Semestre:** 2025/01  
+
+**Equipe:**
+- Carlos Henrique Alves
+- Felipe Gomes  
+- Lucas Santos
+- Iago José
+
 ## Detecção de Vagas de Estacionamento com YOLOv8
 
 ### 📋 Descrição
@@ -22,10 +38,7 @@ trabalho_inteligencia_artificial/
 │   └── test/                 # Imagens e labels de teste
 ├── imagens_para_inferencia/  # Imagens para teste de inferência
 ├── projeto_final_novo.py     # Script principal de treinamento
-├── converter_dataset_novo.py # Conversor de dataset XML→YOLO
-├── verificar_setup.py        # Verificador de setup
 ├── yolov8n.pt               # Modelo YOLOv8 pré-treinado
-├── SETUP.md                 # Instruções de setup
 └── README.md                # Este arquivo
 ```
 
@@ -94,7 +107,7 @@ Após a execução, os seguintes diretórios serão criados:
 - `teste_final/inferencia_final/` - Inferência nas imagens finais
 
 ### 🔧 Configurações de Treinamento
-- **Épocas**: 100 (ajustável)
+- **Épocas**: 150 (ajustável)
 - **Batch Size**: 4
 - **Resolução**: 416x416
 - **Otimizador**: Auto (escolhido automaticamente)
@@ -117,12 +130,6 @@ Este projeto demonstra:
 4. **Validação de Modelo**: Avaliação sistemática do desempenho
 5. **Aplicação Prática**: Implementação de sistema funcional
 
-### 📧 Suporte
-Para dúvidas ou problemas:
-1. Verifique se todas as dependências estão instaladas
-2. Certifique-se de que o dataset_mesclado existe
-3. Execute o script com permissões adequadas
-4. Consulte os logs de erro para diagnóstico
 
 ### 📝 Notas Importantes
 - O projeto usa apenas imagens reais, sem dados sintéticos
